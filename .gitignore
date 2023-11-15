@@ -1,0 +1,4 @@
+*results/
+testcases/
+__pycache__/
+*.json
