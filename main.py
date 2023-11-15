@@ -147,7 +147,6 @@ def main():
         res = [[j.toDict() for j in i] for i in res]
         with open(f"results/{it.name}", "w") as f:
             f.write(json.dumps(res))
-        break
     cleanup()
 
 
